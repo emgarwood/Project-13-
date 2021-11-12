@@ -42,7 +42,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Web 1    |Web Server|10.0.0.8    | Linux (Ubuntu)   |
 | Web 2    |Web Server|10.0.0.6    | Linux (Ubuntu)   |
 | Web 3    |Web Server|10.0.0.11   | Linux (Ubuntu)   |             
-| ELK      |ElasticSearch Stack 13.88.102.62 | Linux (Ubuntu)|
+| ELK      |ElasticSearch Stack 13.88.102.62| Linux (Ubuntu)|
 ### Access Policies
 
 The machines on the internal network are not exposed to the public Internet. 
@@ -69,7 +69,7 @@ A summary of the access policies in place can be found in the table below.
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 - _TODO: What is the main advantage of automating configuration with Ansible?
-The ultimate advantage is that the same configuration can be automated and           deployed to multiple machines, as opposed to tediously deploying the configuration to each machine in an isolated manner.          
+The ultimate advantage is that the same configuration can be automated and deployed to multiple machines, as opposed to tediously deploying the configuration to each machine in an isolated manner.          
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.

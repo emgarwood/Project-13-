@@ -38,30 +38,31 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
-| Jump Box |Gateway   | 10.0.0.1   | Linux (Ubuntu)   |
-| Web 1    |Web Server|            | Linux (Ubuntu)   |
-| Web 2    |Web Server|            | Linux (Ubuntu)   |
-| Web 3    |Web Server|            | Linux (Ubuntu)   |             
-| ELK      |ElasticSearch Stack    | Linux (Ubuntu)   |
+| Jump Box |Gateway   |20.112.31.213| Linux (Ubuntu)  |
+| Web 1    |Web Server|10.0.0.8    | Linux (Ubuntu)   |
+| Web 2    |Web Server|10.0.0.6    | Linux (Ubuntu)   |
+| Web 3    |Web Server|10.0.0.11   | Linux (Ubuntu)   |             
+| ELK      |ElasticSearch Stack 13.88.102.62 | Linux (Ubuntu)|
 ### Access Policies
 
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jumpbox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses
+- TODO: Add whitelisted IP addresses
+         20.112.31.213
 
 Machines within the network can only be accessed by Jumpbox machine.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?
-         Jumpbox machine. 
+- TODO: Which machine did you allow to access your ELK VM? What was its IP address?
+         Jumpbox machine. 20.112.31.213
 
 A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
 | Jumpbox  | Yes                 |                      |
-| Web_VM_1 | No                  |                      |
-| Web_VM_2 | No                  |                      |
-| Web_VM_3 | No                  |                      |
+| Web_VM_1 | No                  | 20.112.31.213        |
+| Web_VM_2 | No                  | 20.112.31.213        |
+| Web_VM_3 | No                  | 20.112.31.213       |
 | ElkVM    | Yes                 |                      |
 
 ### Elk Configuration
@@ -72,8 +73,9 @@ The ultimate advantage is that the same configuration can be automated and      
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.
-
-
+- 1. Installed Docker and Ansible on the Jumpbox machine, enabling playbook automation to push software services to other machines.
+- 2. Added ELK VM to Hosts file under a separate Group header (ELK).
+- 3. Run Playbook file via ansible-playbook command, therefore pushing tasks to all machines assigned/configured to receive.
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
@@ -82,20 +84,24 @@ The following screenshot displays the result of running `docker ps` after succes
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 TODO List the IP addresses of the machines you are monitoring
+     10.0.0.8, 10.0.0.6, 10.0.0.11
 
 We have installed the following Beats on these machines:
 TODO Specify which Beats you successfully installed
+Filebeat and Metricbeat have been installed to monitor the three Web_VM's.
 
 These Beats allow us to collect the following information from each machine:
 - TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc.
+Filebeat allows the ELK Server to monitor files being accessed, whether by authorized or unauthorized users. It keeps track of access, so if there were changes made to sensitive files, the user can figure out when this event took place, which is incredibly important. If a user altered or accessed the shadow or passwd files, this allows us valuable intelligence into when and how this was done.
+Metricbeat allows the ELK Server to monitor valuable usage metrics like CPU usage, memory usage, and monitors what is coming in and out of the server at specified moments in time. This allows for a user to further configure or change/add assets when there may be high traffic volume or usage volume.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the _____ file to _____.
-- Update the _____ file to include...
-- Run the playbook, and navigate to ____ to check that the installation worked as expected.
+- Copy the playbook file to _____.
+- Update the playbook file to include 
+- Run the playbook, and navigate to virtual machine to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:
 - Which file is the playbook? .yml file

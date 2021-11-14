@@ -59,11 +59,11 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jumpbox  | Yes                 |                      |
+| Jumpbox  | Yes                 | 24.1.123.170         |
 | Web_VM_1 | No                  | 20.112.31.213        |
 | Web_VM_2 | No                  | 20.112.31.213        |
-| Web_VM_3 | No                  | 20.112.31.213       |
-| ElkVM    | Yes                 |                      |
+| Web_VM_3 | No                  | 20.112.31.213        |
+| ElkVM    | Yes                 | 24.1.123.170         |
 
 ### Elk Configuration
 

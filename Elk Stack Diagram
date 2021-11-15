@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T02:48:36.788Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="91g9sLZ9NNQs4yDqH80w" version="15.7.3" type="github"><diagram id="m-ybC61fyVYR0KeacLfD" name="Page-1">1VZRb5swEP41eVwFoSTpY0K6rdM6RaqmrY9OfAGrxhcZ05D++p3BgAnt2k59GQ/I9519Pt/3+WASJXn1RbNDdosc5GQa8GoSrSfT6Txe0NsCpwaI5/MGSLXgDRT2wJ14AgcGDi0Fh2Iw0SBKIw5DcIdKwc4MMKY1HofT9iiHux5YCiPgbsfkGP0luMkadBEHPf4VRJq1O4eB8+SsneyAImMcjx4UXU+iRCOaZpRXCUhbu7YuzbrPL3i7xDQo85YFiZI/lrfqZxHeP5Wy2rJvy/tPLsojk6U7sEvWnNoK7FGZBCXq2oyCYDZLkkm0egRtBBVqKUWqyGfw4KHf2RbkBgthBFrvFo3BnCbIM8eO0geKvWIuTgdkJpdkhzTE0kihIOlIDgjcCym9xJL6IbwwGh/A88wWi3AVkSfVjAvoj6NQgQevhaboTVoKteXPBWupn1okYwdbmrxKreIvFJgj6ofigrLOhWKU88pVlWoB1Yt0hZ0I6PIA5mD0iaa0CxZON+7iRK199GTooMxT4Cx24nfCT7vIvTZo4OTxDqlMR1LZgC7QHnga3GxGuqGjmyGLI4bPJZQLzu3ylYZCPLFtHcpSfUChTH2geDWJ1zZWaUhDdbcIR5w7Xn2BOOgjiJlfDYi5jN9GTNsHPpyYy9fvMCi+tM2wL4RHi8ZSceCu1FAJ89uOL2Jn3XuedeUbJ88gMQg6j+W1xpocgI/a61mdKU8s9Q5ea1JjPrx6x8/Uu8U0SGbE4zCN50hwO2ys1nq6L8/v4TmPTfpuld9/zwJ1AnCB6Ns4DGSYTsGMAtWa6I797zKZPSOTmbRXdEuD1A5u7L2kftY6aJ/ON9LU/9aedxJLbvMafs/29fNRrSEeUhyNW8PVX6T6jtZAZv/r0Eik//+Krv8A</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-15T02:58:47.313Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="hXwviv2sqUO_e6mfg2Je" version="15.7.3" type="github">
+  <diagram id="m-ybC61fyVYR0KeacLfD" name="Page-1">
+    <mxGraphModel dx="758" dy="1677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CnlNAMnUs1YzulxbaJAY-1" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.terminal;" parent="1" vertex="1">
+          <mxGeometry x="180" y="380" width="80" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="CnlNAMnUs1YzulxbaJAY-2" value="Personal IP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="179" y="450" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CnlNAMnUs1YzulxbaJAY-4" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="CnlNAMnUs1YzulxbaJAY-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="320" as="sourcePoint" />
+            <mxPoint x="220" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CnlNAMnUs1YzulxbaJAY-6" value="&lt;b&gt;Internet&lt;/b&gt;" style="html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.cloud;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="175" y="230" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7eytPfePUp00QG64WcNY-1" value="SSH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="320" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7eytPfePUp00QG64WcNY-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.firewall;" vertex="1" parent="1">
+          <mxGeometry x="340" y="220" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7eytPfePUp00QG64WcNY-5" value="" style="endArrow=none;html=1;rounded=0;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7eytPfePUp00QG64WcNY-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="270" as="sourcePoint" />
+            <mxPoint x="410" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7eytPfePUp00QG64WcNY-6" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Security Group&lt;br&gt;(Inbound Rules)&lt;br&gt;Allow Port 5601&lt;br&gt;Allow Port 9200&lt;br&gt;Elk Web&lt;br&gt;Allow HTTP&lt;br&gt;SSH from JumpBox&lt;br&gt;Allow SSH&lt;br&gt;Default Deny&lt;br&gt;Security Group&lt;br&gt;Red Team" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-10" width="120" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="7eytPfePUp00QG64WcNY-7" value="&amp;nbsp; &amp;nbsp; SSH&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="260" y="280" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7eytPfePUp00QG64WcNY-9" value="" style="swimlane;startSize=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="310" y="40" width="160" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="7eytPfePUp00QG64WcNY-10" value="" style="endArrow=none;html=1;rounded=0;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7eytPfePUp00QG64WcNY-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="300" as="sourcePoint" />
+            <mxPoint x="650" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7eytPfePUp00QG64WcNY-11" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="1">
+          <mxGeometry x="650" y="220" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7eytPfePUp00QG64WcNY-12" value="JumpBox&lt;br&gt;10.0.0.4&lt;br&gt;Ansible Control" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="641" y="165" width="100" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
